@@ -1,0 +1,29 @@
+{
+  "flights": [
+    {
+      "flight_number": "AZ5969",
+      "registration": "EI-ABC",
+      "previous_leg": {
+        "flight_number": "AZ5968",
+        "from": "LIML",
+        "to": "LIEE",
+        "scheduled_arrival": "2025-11-16T13:00:00Z",
+        "actual_arrival": "2025-11-16T13:32:00Z",
+        "arrival_delay_minutes": 32
+      }
+    },
+    {
+      "flight_number": "AZ1234",
+      "registration": "EI-XYZ",
+      "previous_leg": {
+        "flight_number": "AZ1233",
+        "from": "LIRF",
+        "to": "LIMC",
+        "scheduled_arrival": "2025-11-15T09:00:00Z",
+        "actual_arrival": "2025-11-15T09:05:00Z",
+        "arrival_delay_minutes": 5
+      }
+    }
+  ]
+}
+
